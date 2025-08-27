@@ -66,12 +66,12 @@ O Privacy Point é uma solução completa de automação inteligente que utiliza
     - Compliance regulatório específico
     - Análise de risco e gaps de conformidade
 
-11. **👤 Human Supervision Agent** - Supervisão Humana
+11. ** Human Supervision Agent** - Supervisão Humana
     - Interface para revisão e aprovação humana final
     - Facilitação da supervisão obrigatória
     - Sistema de feedback e aprovação
 
-## 🚀 Instalação e Configuração
+##  Instalação e Configuração
 
 ### Pré-requisitos
 
@@ -346,25 +346,13 @@ pip install python-dotenv
 # 1. Ative o ambiente virtual
 source venv/bin/activate
 
-# 2. Instale dependências (se necessário)
+# 2. Instale dependências 
 pip install -r requirements.txt
 
 # 3. Rode o sistema
 python run.py
 ```
 
-### Porta já em uso
-```bash
-# Matar processos usando as portas
-pkill -f streamlit
-pkill -f uvicorn
-```
-
-```
-
-
----
 
 
 
-[GitHub Repository](https://github.com/RaquelFonsec/privacy-point)
