@@ -113,7 +113,7 @@ OPENAI_API_KEY=your_openai_api_key_here
 DEBUG=True
 LOG_LEVEL=INFO
 
-# Serviços de OCR (opcionais)
+# Serviços de OCR 
 TESSERACT_PATH=/usr/bin/tesseract
 PADDLE_OCR_ENABLED=False
 
@@ -123,10 +123,7 @@ AWS_SECRET_ACCESS_KEY=your_aws_secret
 AWS_REGION=us-east-1
 AWS_TEXTRACT_ENABLED=False
 
-# Azure Services (opcionais)
-AZURE_DOCUMENT_INTELLIGENCE_ENDPOINT=your_azure_endpoint
-AZURE_DOCUMENT_INTELLIGENCE_KEY=your_azure_key
-AZURE_ENABLED=False
+
 
 # Configurações da API
 API_HOST=0.0.0.0
@@ -205,7 +202,7 @@ python test_agents_logic.py
 7. **Notificação de Violação** - Comunicação de incidentes de segurança
 8. **Avaliação de Impacto** - DPIA (Data Protection Impact Assessment)
 
-## 🔌 API Endpoints
+##  API Endpoints
 
 ### Gerar Documento
 ```http
@@ -312,13 +309,7 @@ python test_agents_logic.py
 python test_system.py
 ```
 
-### Contribuindo
 
-1. Fork o projeto
-2. Crie uma branch para sua feature (`git checkout -b feature/AmazingFeature`)
-3. Commit suas mudanças (`git commit -m 'Add some AmazingFeature'`)
-4. Push para a branch (`git push origin feature/AmazingFeature`)
-5. Abra um Pull Request
 
 ## 📈 Métricas e Performance
 
